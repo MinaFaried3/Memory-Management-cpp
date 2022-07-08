@@ -30,6 +30,13 @@
   ],
   "files.associations": {
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "array": "cpp",
+    "deque": "cpp",
+    "string": "cpp",
+    "vector": "cpp",
+    "iterator": "cpp",
+    "initializer_list": "cpp",
+    "unordered_map": "cpp"
   }
 }
