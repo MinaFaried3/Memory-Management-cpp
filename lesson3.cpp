@@ -47,9 +47,10 @@ int main()
     cout << "-------------------------------------------------------------------------------" << endl;
     // reference to variable
     // it is like shallow copy (search about shallow,deep copy)
-
+    // variable alias
     int x = 3;
     int &y = x;
+    // int &x =4; //compile error
 
     // now the x,y points at the same node in memory  = 3
     // and holds the same address

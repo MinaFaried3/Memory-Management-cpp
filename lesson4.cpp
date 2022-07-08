@@ -16,11 +16,13 @@ int main()
 
     int *vtr;
     // x = vtr; // this is false condition because x is pointer to array not to int
+    // x++; //compile error
 
     // ------------------------------------------------------------------------------------------------------------
     cout << "-------------------------------------------------------------------------------" << endl;
 
     // 2D array is 1D array of pointers
+    // when assign values of array in compile time they saved side by side on memory 
     int arr[2][3] = {{1, 2, 3}, {4, 5, 6}};
     cout << "address of array arr is : " << arr << endl;
     cout << "value of first  array arr is : " << *arr << endl;
@@ -43,7 +45,7 @@ int main()
     cout << "value of first num in second array **ptr1+1 is : " << **(ptr1 + 1) << " : " << *ptr1[1] << endl;
     cout << "value of second num in  first array ptr1 is : " << *(*ptr1 + 1) << " : " << ptr1[0][1] << endl;
     cout << "address of last num in  second array ptr1 is : " << *(ptr1 + 1) + 2 << " : " << &ptr1[1][2] << endl;
-
+ 
     /*
         TODO : int arr[2][3] = {{1, 2, 3}, {4, 5, 6}};
 
