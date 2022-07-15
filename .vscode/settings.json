@@ -37,6 +37,8 @@
     "vector": "cpp",
     "iterator": "cpp",
     "initializer_list": "cpp",
-    "unordered_map": "cpp"
+    "unordered_map": "cpp",
+    "streambuf": "cpp",
+    "cmath": "cpp"
   }
 }
