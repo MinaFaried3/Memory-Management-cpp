@@ -12,8 +12,8 @@ int main()
     delete ptr;
 
     // in c
-    int *ptr = (int *)malloc(7);
-    free(ptr);
+    // int *ptr = (int *)malloc(7);
+    // free(ptr);
     // -------------------------------------------------------------------------
     cout << "-dynamic array------------------------------------------------------------------" << endl;
     // dynamic array
