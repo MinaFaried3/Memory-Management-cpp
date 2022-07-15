@@ -49,11 +49,11 @@ int main()
     cout << "-------------------------------------------------------------------------------" << endl;
     // ----------------------------------------------------------------------
 
-    cout << "value of ptr1 : " << ptr1 << " is address of &x : " << &val << endl;
+    cout << "value of ptr1 : " << ptr1 << " is address of &val : " << &val << endl;
     cout << "value of ptr2 : " << ptr2 << " is address of &ptr1 : " << &ptr1 << endl;
     cout << "value of ptr3 : " << ptr3 << " is address of &ptr2 : " << &ptr2 << endl;
 
-    cout << "dereference of *ptr3 : " << *ptr1 << " is value of x : " << val << endl;
+    cout << "dereference of *ptr3 : " << *ptr1 << " is value of val : " << val << endl;
     cout << "dereference of *ptr2 : " << *ptr2 << " is value of ptr1 : " << ptr1 << endl;
     cout << "dereference of *ptr3 : " << *ptr3 << " is value of ptr2 : " << ptr2 << endl;
 }

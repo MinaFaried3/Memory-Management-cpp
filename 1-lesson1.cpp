@@ -21,6 +21,7 @@ int main()
     int *otr = &x;
     cout << "address of otr : " << otr << endl;
     //  after + 1 we change the value of the pointer that is x
+    //  increase by 4 byte because it is int
     otr = otr + 1;
     cout << "address of otr + 1 : " << otr << endl;
     cout << "value of the address that stored in otr : " << *otr << endl;
@@ -30,7 +31,8 @@ int main()
     // notice that with char data type we use int for type casting
     char c = 'c';
     char *chr = &c;
-
+    cout << "address of chr : " << (int)chr << endl;
+    cout << "value of the address that stored in chr : " << (int)*chr << endl;
     chr = chr + 1;
     cout << "address of chr + 1 : " << (int)chr << endl;
     cout << "value of the address that stored in chr : " << (int)*chr << endl;

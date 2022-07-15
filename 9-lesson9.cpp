@@ -45,7 +45,7 @@ int main()
     cout << salary << " " << grade << endl;
 
     // !notice don't return any thing in function before delete pointers
-    // return 0;
+    // return 0; // bad practice => memory leak
 
     int *ptr1 = new int[8], *ptr2 = new int[8], *ptr3 = new int[8];
     delete ptr1; // WRONG, it should be delete[]

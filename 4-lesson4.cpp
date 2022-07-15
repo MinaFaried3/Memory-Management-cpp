@@ -22,7 +22,7 @@ int main()
     cout << "-------------------------------------------------------------------------------" << endl;
 
     // 2D array is 1D array of pointers
-    // when assign values of array in compile time they saved side by side on memory 
+    // when assign values of array in compile time they saved side by side on memory while we don't store them in heap
     int arr[2][3] = {{1, 2, 3}, {4, 5, 6}};
     cout << "address of array arr is : " << arr << endl;
     cout << "value of first  array arr is : " << *arr << endl;
@@ -35,6 +35,7 @@ int main()
     // int *ptr1 = arr; // this is false condition because arr return pointer to 1d array of 3 elements not pointer to int
 
     int(*ptr1)[3] = arr; // this is true condition
+    
     cout << "-------------------------------------------------------------------------------" << endl;
     cout << "address of array ptr1 is : " << ptr1 << endl;
     cout << "value of first array array ptr1 is : " << *ptr1 << endl;
